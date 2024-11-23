@@ -1,0 +1,27 @@
+S- Single responsibitliy principle
+O - Open/closed principle
+L - Liskov Substituion principle
+I - Interface segmented principle
+D - Dependency inversion principle
+
+Single responsibitliy principle
+1. A class should have only 1 reason to change. 
+
+Open/closed principle
+1. Open for extension but closed for modification
+
+Liskov Substituion principle
+1. If Class B is subtype of class A, then we should be able to replace
+Object A with B without breaking the behaviour of the program
+2. Subclass should extend the capability of the parent class and not
+narrow it down
+3. To solve this problem, only add those functions in parent class, which 
+are very generic and the child are not supposed to break them.
+4. You can have multi-level parent class. 
+
+Interface segmented principle
+1. Interfaces should be such, that client should implement not unnecessary 
+functions they do not need
+
+Dependency inversion principle
+1. Class should depend on interfaces rather than concrete class 
